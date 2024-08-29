@@ -2,7 +2,7 @@ import { Download, Frame, Gauge, LayoutDashboard, Sparkles } from "lucide-react"
 
 export function Features() {
   return (
-    <section className="container flex flex-col items-center gap-6 py-24 sm:gap-7">
+    <section className="container flex flex-col items-center gap-6 sm:gap-7">
       <div className="flex flex-col gap-3">
         <span className="text-center font-bold uppercase text-primary">Features</span>
         <h2 className="text-center font-heading text-3xl font-semibold sm:text-4xl">

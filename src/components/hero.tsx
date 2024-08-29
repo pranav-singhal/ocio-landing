@@ -1,18 +1,18 @@
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
-    <section className="container flex flex-col items-center gap-8 pb-28 pt-20 sm:gap-10">
+    <section className="container flex flex-col items-center gap-8 pt-20 sm:gap-10">
       <div className="flex cursor-pointer items-center gap-1 rounded-full border bg-secondary px-3 py-0.5 hover:bg-secondary/60">
         <span className="text-sm text-secondary-foreground">Join the waitlist</span>
         <ArrowRight size={16} />
       </div>
       <h1 className="max-w-3xl text-center font-heading text-4xl font-semibold sm:text-5xl sm:leading-tight">
-        OCIO Advisors
+        OCIO Advisor
       </h1>
       <p className="max-w-lg text-center text-lg text-muted-foreground sm:text-xl">
         Connecting Institutions &amp; Family offices to Exceptional CIOs &amp; OCIO providers.
